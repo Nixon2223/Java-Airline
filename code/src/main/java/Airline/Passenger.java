@@ -6,7 +6,7 @@ public class Passenger {
     private int bags;
 
 
-    public void Passenger(String name, int bags){
+    public Passenger(String name, int bags){
         this.name = name;
         this.bags = bags;
     }
