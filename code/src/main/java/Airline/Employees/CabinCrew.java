@@ -7,4 +7,8 @@ public class CabinCrew extends Employee {
         super(name);
         this.rank = rank;
     }
+
+    public String getRank() {
+        return rank;
     }
+}
