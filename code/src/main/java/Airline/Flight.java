@@ -33,6 +33,10 @@ public class Flight {
         return passengers.size();
     }
 
+    public int seatsLeft(){
+        return this.plane.getType().getCapacity() - this.passengerCount();
+    }
+
     public void setPilot(Pilot pilot) {
         this.pilot = pilot;
     }
