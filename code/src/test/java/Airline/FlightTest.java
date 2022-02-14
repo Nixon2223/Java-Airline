@@ -31,6 +31,13 @@ public class FlightTest {
         assertEquals(1, flight.passengerCount());
     }
 
+
+    @Test
+    public void canReturnNumSeatsLeft(){
+        flight.bookPassenger(passenger);
+        assertEquals(299, flight.seatsLeft());
+    }
+
     @Test
     public void setCabinCrew() {
     }
