@@ -21,7 +21,7 @@ public class FlightTest {
         cabinCrew = new CabinCrew("Ron","Trainee");
         passenger = new Passenger("Jeff", 2);
         pilot = new Pilot("Bob","Co-pilot");
-        flight = new Flight()
+        flight = new Flight(pilot, plane,"1234","EDI","12:00")
     }
 
     @Test
