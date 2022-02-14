@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static Airline.Plane.Type.AIRBUS_A380;
+import static org.junit.Assert.assertEquals;
 
 public class FlightTest {
 
@@ -21,11 +22,13 @@ public class FlightTest {
         cabinCrew = new CabinCrew("Ron","Trainee");
         passenger = new Passenger("Jeff", 2);
         pilot = new Pilot("Bob","Co-pilot");
-        flight = new Flight(pilot, plane,"1234","EDI","12:00")
+        flight = new Flight(pilot, plane,"1234","EDI","12:00");
     }
 
     @Test
-    public void setPilot() {
+    public void bookPassenger() {
+        flight.bookPassenger();
+        assertEquals(1, flight.passengerCount());
     }
 
     @Test
