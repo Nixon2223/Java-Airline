@@ -23,4 +23,11 @@ public class CabinCrewTest {
     public void canGetRank(){
         assertEquals("Trainee", cabinCrew.getRank());
     }
+
+    @Test
+    public void canFastenSeatbeltsMessage(){
+        assertEquals("Please fasten your seatbelts", cabinCrew.fastenSeatbelts());
+    }
+
+
 }

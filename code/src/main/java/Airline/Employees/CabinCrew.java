@@ -15,4 +15,8 @@ public class CabinCrew extends Employee {
     public String getRank() {
         return rank;
     }
+
+    public String fastenSeatbelts(){
+        return "Please fasten your seatbelts";
+    }
 }
