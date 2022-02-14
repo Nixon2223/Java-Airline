@@ -25,6 +25,14 @@ public class Flight {
         this.getDepartureTime = getDepartureTime;
     }
 
+    public void bookPassenger(Passenger passenger){
+        this.passengers.add(passenger);
+    }
+
+    public int passengerCount(){
+        return passengers.size();
+    }
+
     public void setPilot(Pilot pilot) {
         this.pilot = pilot;
     }

@@ -27,7 +27,7 @@ public class FlightTest {
 
     @Test
     public void bookPassenger() {
-        flight.bookPassenger();
+        flight.bookPassenger(passenger);
         assertEquals(1, flight.passengerCount());
     }
 
