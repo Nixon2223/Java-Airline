@@ -8,6 +8,10 @@ public class CabinCrew extends Employee {
         this.rank = rank;
     }
 
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+
     public String getRank() {
         return rank;
     }
