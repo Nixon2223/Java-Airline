@@ -20,7 +20,7 @@ public class CabinCrewTest {
     }
 
     @Test
-    public void canGetBags(){
-        assertEquals(2, cabinCrew.getRank());
+    public void canGetRank(){
+        assertEquals("Trainee", cabinCrew.getRank());
     }
 }
