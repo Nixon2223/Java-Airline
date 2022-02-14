@@ -22,4 +22,5 @@ public class PilotTest {
     public void canGetRank(){
         assertEquals("Co-pilot", pilot.getRank());
     }
+
 }
