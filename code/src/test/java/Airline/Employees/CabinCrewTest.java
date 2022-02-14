@@ -29,5 +29,4 @@ public class CabinCrewTest {
         assertEquals("Please fasten your seatbelts", cabinCrew.fastenSeatbelts());
     }
 
-
 }
