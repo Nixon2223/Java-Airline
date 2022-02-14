@@ -1,6 +1,7 @@
 package Airline;
 
 import Airline.Employees.CabinCrew;
+import Airline.Employees.Pilot;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,12 +13,14 @@ public class FlightTest {
     Plane plane;
     CabinCrew cabinCrew;
     Passenger passenger;
+    Pilot pilot;
 
     @Before
     public void before(){
         plane = new Plane(AIRBUS_A380);
         cabinCrew = new CabinCrew("Ron","Trainee");
         passenger = new Passenger("Jeff", 2);
+        pilot = new Pilot("Bob","Co-pilot");
         flight = new Flight()
     }
 
