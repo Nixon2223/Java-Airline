@@ -28,7 +28,7 @@ public class PilotTest {
 
     @Test
     public void canFlyPlane(){
-        assertEquals("Flying", pilot.fly(plane));
+        assertEquals("Flying AIRBUS_A380", pilot.fly(plane));
     }
 
 }

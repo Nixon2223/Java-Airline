@@ -1,5 +1,7 @@
 package Airline.Employees;
 
+import Airline.Plane;
+
 public class Pilot extends Employee{
     private String rank;
 
@@ -14,5 +16,9 @@ public class Pilot extends Employee{
 
     public String getRank() {
         return rank;
+    }
+
+    public String fly(Plane plane){
+        return "Flying " + plane.getType();
     }
 }
